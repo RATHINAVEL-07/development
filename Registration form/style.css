@@ -1,0 +1,19 @@
+input[type=submit] {
+    background-color:orange;
+    color: white;
+    border: 5px solid white;
+    width: 200px;
+  }
+  
+  #Submit:hover {
+    box-shadow: 0 0 10px #0099ff;
+    font-weight: bold;
+    color: black;
+  }
+  
+  input[type=reset] {
+    background-color: #FF8A80;
+    color: white;
+    border: 5px solid #FF8A80;
+    width: 120px;
+  }

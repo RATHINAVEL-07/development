@@ -1,0 +1,68 @@
+<!-- Html Document Begins-->
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>
+FORM
+</title>
+</head>
+<body bgcolor=#Ccff66>
+<div style="margin: auto;width: 30%;">
+<form>
+<center><h1 style="color: red;"> Personal Details</h1></center><br>
+<label><b> First Name : </b></label> <input type="text" placeholder="Enter your first name" name="first_name" required>
+<br><br>
+<label><b>Password :</b></label>
+<input type="password" placeholder="Enter your password" name="pass" required>
+<br><br>
+<label><b>E-mail Id:</b></label>
+<input type="email" placeholder="Enter your e-mail" name="email" required>
+<br><br>
+<label><b>Gender</b></label><br>
+<input type="radio" name="gender" value="Male">
+<label for="Male">Male</label>
+<input type="radio" name="gender" value="Female">
+<label for="Female">Female</label><br>
+<br>
+<label><b>Contact#</b></label>
+<input type="phonenumber" placeholder="Enter your contact Number" name="phone" required>
+<br>
+<h2 style="color: red;">Educational Qualification</h2>
+<label><b>Course :</b></label>   
+ <select>
+<option value="Course">Select Group</option>    
+                       <option value="CS">Computer Fundamentals</option>  
+                       <option value="AI">Artificial Intelligence</option>  
+                       <option value="ML">Machine Learning</option>  
+                       <option value="OOPS">Object Oriented Programming</option>  
+                       <option value="DBMS">Database Management System</option>   
+                 </select><br><br>
+<label><b>Degree :</b></label>   
+ <select>
+<option value="Degree">Select Group</option>    
+                       <option value="ENGINEERING">BE</option>  
+                       <option value="SCIENCE">BSC</option>  
+                       <option value="MASTER SCIENCE">MSC</option>  
+                       <option value="COMMERSE">MCOM</option>  
+                       <option value="MASTER SCIENCE">MS</option>   
+                 </select>
+           <br>
+           <br>
+           <label><b>Hobbies</b></label><br>
+           <input type="checkbox" name="Hobbies" value="Playing chess">
+<label for="Playing chess">Playing chess</label>
+<input type="checkbox" name="Hobbies" value="Playing Cricket">
+<label for="Playing Cricket">Playing Cricket</label><br>
+<h2 style="color: red;">Address</h2>
+<textarea rows="4" cols="50" name="comment" ></textarea><br>
+<label for="myfile">Attch Resume:</label>
+<input type="file" id="myfile" name="myfile"><br><br><br>
+<input type="submit" id="Submit" value="Submit">
+          </form>
+     </div>
+</body>
+</html>
