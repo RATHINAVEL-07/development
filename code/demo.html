@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+// let person = {
+//   firstName: "John",
+//   lastName: "Doe",
+//   get fullName() {
+//     return this.firstName + " " + this.lastName;
+//   },
+//   set fullName(name) {
+//     const parts = name.split(" ");
+//     this.firstName = parts[0];
+//     this.lastName = parts[1];
+//   }
+// };
+
+
+
+function getObjectProperties(obj) {
+  var propertyList = [];
+  
+  for (var prop in obj) {
+    if (obj.hasOwnProperty(prop)) {
+      propertyList.push(prop);
+    }
+  }
+  
+  return propertyList;
+}
+
+// Example object
+var person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 30,
+};
+
+// Call the function to get the list of properties
+var properties = getObjectProperties(person);
+
+// Log the list of properties
+console.log(properties);
+
+
+
+    </script>
+
+
+    
+
+    
+</body>
+</html>
